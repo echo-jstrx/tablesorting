@@ -43,6 +43,36 @@ th:hover {
             <tr><td>Sam Brown</td><td>35</td><td>Canada</td></tr>
         </tbody>
     </table>
+
+    <table id="myTable">
+        <thead>
+            <tr>
+                <th onclick="sortTable(0)">Name</th>
+                <th onclick="sortTable(1)">Age</th>
+                <th onclick="sortTable(2)">Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>John Doe</td><td>30</td><td>USA</td></tr>
+            <tr><td>Jane Smith</td><td>25</td><td>UK</td></tr>
+            <tr><td>Sam Brown</td><td>35</td><td>Canada</td></tr>
+        </tbody>
+    </table>
+
+    <table id="myTable">
+        <thead>
+            <tr>
+                <th onclick="sortTable(0)">Name</th>
+                <th onclick="sortTable(1)">Age</th>
+                <th onclick="sortTable(2)">Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>John Doe</td><td>30</td><td>USA</td></tr>
+            <tr><td>Jane Smith</td><td>25</td><td>UK</td></tr>
+            <tr><td>Sam Brown</td><td>35</td><td>Canada</td></tr>
+        </tbody>
+    </table>
     <script>
 document.addEventListener('DOMContentLoaded', function() {
     var tables = document.querySelectorAll('table');
